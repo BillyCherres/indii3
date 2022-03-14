@@ -1,5 +1,7 @@
 # indii3
 
+- [replit. link](https://replit.com/@WilliamCherres/indii3)
+
 <details>
 <summary>How I Can Help People Through Tech!</summary>
 <br>
