@@ -1,6 +1,9 @@
 # indii3
 
-- [replit. link](https://replit.com/@WilliamCherres/indii3)
+# Menu
+- [CodeSnippets](CodeSnippets.md)
+- [Replit Code](replit.html)
+
 
 <details>
 <summary>How I Can Help People Through Tech!</summary>
