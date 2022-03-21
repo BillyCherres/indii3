@@ -53,6 +53,7 @@ public class queue<T> {
 
 # Merge 2 Queues 
 - [replit](https://billycherres.github.io/indii3/replit.html)
+
 ```
 while((q1.display() != null) || (q2.display() != null)) {
             try {
@@ -134,6 +135,7 @@ public class menu {
 ```
 
 # Swapper Code
+
 ```
 public class swapper extends funcMaster {
     public swapper(String selection, ArrayList<Integer> nums) {
