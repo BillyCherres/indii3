@@ -5,7 +5,7 @@
 - [Matrix Code](https://github.com/BillyCherres/squirty_grinnellians/blob/gh-pages/Challenge_Code.md#matrix)
 
 # Linked list and Java Generic T
-- [replit](https://billycherres.github.io/squirty_grinnellians/replit.html)
+- [replit](https://billycherres.github.io/indii3/replit.html)
 
 ```
 public static void main(String[] args) {
@@ -29,7 +29,7 @@ public class queue<T> {
 ```
 
 # Queue Add and Delete
-- [replit](https://billycherres.github.io/squirty_grinnellians/replit.html)
+- [replit](https://billycherres.github.io/indii3/replit.html)
 ```
 //add data to queue
     public void push(T data){
@@ -52,7 +52,7 @@ public class queue<T> {
 ```
 
 # Merge 2 Queues 
-- [replit](https://billycherres.github.io/squirty_grinnellians/replit.html)
+- [replit](https://billycherres.github.io/indii3/replit.html)
 ```
 while((q1.display() != null) || (q2.display() != null)) {
             try {
@@ -84,7 +84,7 @@ while((q1.display() != null) || (q2.display() != null)) {
 ```
 
 # Build Stack and reverse Queue Order
-- [replit](https://billycherres.github.io/squirty_grinnellians/replit.html)
+- [replit](https://billycherres.github.io/indii3/replit.html)
 
 ```
         //move queue elements into stack
