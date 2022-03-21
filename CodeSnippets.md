@@ -6,6 +6,7 @@
 
 # Linked list and Java Generic T
 - [replit](https://billycherres.github.io/squirty_grinnellians/replit.html)
+
 ```
 public static void main(String[] args) {
 
@@ -26,6 +27,7 @@ public class queue<T> {
         list.add(data);
     }
 ```
+
 # Queue Add and Delete
 - [replit](https://billycherres.github.io/squirty_grinnellians/replit.html)
 ```
@@ -48,6 +50,7 @@ public class queue<T> {
         }
     }
 ```
+
 # Merge 2 Queues 
 - [replit](https://billycherres.github.io/squirty_grinnellians/replit.html)
 ```
@@ -77,10 +80,12 @@ while((q1.display() != null) || (q2.display() != null)) {
                 }
             }
         }
+
 ```
 
 # Build Stack and reverse Queue Order
 - [replit](https://billycherres.github.io/squirty_grinnellians/replit.html)
+
 ```
         //move queue elements into stack
         int j = start.length();
@@ -95,7 +100,7 @@ while((q1.display() != null) || (q2.display() != null)) {
         ArrayList<Integer> output_list = new ArrayList<Integer>();
 ```
 
-=
+
 # Menu Code
 
 ```
@@ -127,6 +132,7 @@ public class menu {
     }
 }
 ```
+
 # Swapper Code
 ```
 public class swapper extends funcMaster {
