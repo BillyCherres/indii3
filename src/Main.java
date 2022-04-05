@@ -1,6 +1,9 @@
 //imports
 import java.util.*;
 
+import src.week0.matrix;
+import src.week0.swapper;
+
 public class Main {
 
     public static void main(String[] args) {
@@ -18,8 +21,10 @@ public class Main {
 
         //Create menu options dictionary
         Dictionary<Integer, funcMaster> myElements = new Hashtable<Integer, funcMaster>(); {
-            myElements.put(1, mySwapper);
-            myElements.put(2, myMatrix);
+            myElements.put(0, mySwapper);
+            myElements.put(1, myMatrix);
+            // myElements.put(2, myWeek2);
+            // myElements.put(3, myWeek3);
         }
         
         //Create menu class object
