@@ -1,3 +1,7 @@
+package week0;
+
+import abstract_class.funcMaster;
+
 public class matrix extends funcMaster{
     public matrix(String selection) {
         super.selection = selection;

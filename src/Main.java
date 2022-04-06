@@ -1,8 +1,13 @@
 //imports
-import java.util.*;
+import abstract_class.funcMaster;
+import week0.matrix;
+import week0.swapper;
+import week1.W1_C1;
+import week1.W1_C2;
+import week1.W1_C3;
+import week2.W2_C1;
 
-import src.week0.matrix;
-import src.week0.swapper;
+import java.util.*;
 
 public class Main {
 
@@ -10,21 +15,15 @@ public class Main {
         //Initialize scanner (user input)
         Scanner input = new Scanner(System.in);
 
-        //Create swapper class
-        ArrayList<Integer> nums = new ArrayList<Integer>();
-        nums.add(1);
-        nums.add(-1);
-        swapper mySwapper = new swapper("Week 0: Swapper", nums);
-
-        //Create matrix class
-        matrix myMatrix = new matrix("Week 0: Matrix");
-
         //Create menu options dictionary
         Dictionary<Integer, funcMaster> myElements = new Hashtable<Integer, funcMaster>(); {
-            myElements.put(0, mySwapper);
-            myElements.put(1, myMatrix);
-            // myElements.put(2, myWeek2);
-            // myElements.put(3, myWeek3);
+            myElements.put(1, new exit("Exit"));
+            myElements.put(2, new swapper("Week 0: Swapper", null));
+            myElements.put(3, new matrix("Week 0: Matrix"));
+            myElements.put(4, new W1_C1("Week 1 Challenge 1"));
+            myElements.put(5, new W1_C2("Week 1 Challenge 2"));
+            myElements.put(6, new W1_C3("Week 1 Challenge 3"));
+            myElements.put(7, new W2_C1("Week 2 Challenge 1"));
         }
         
         //Create menu class object
@@ -37,12 +36,14 @@ public class Main {
             myMenu.print();
 
             //Read user input
+            System.out.println("Input: ");
             int choice = input.nextInt();
 
             //Try choice
             try {
                 //Run selection
                 myMenu.run(choice);
+                System.out.println();
             }
             //Return valid values
             catch(Exception e) {

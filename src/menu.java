@@ -1,6 +1,8 @@
 import java.util.Dictionary;
 import java.util.Scanner;
 
+import abstract_class.funcMaster;
+
 public class menu {
 
     //Initialize variables

@@ -1,5 +1,9 @@
+package week0;
+
 import java.util.ArrayList;
 import java.util.Scanner;
+
+import abstract_class.funcMaster;
 
 public class swapper extends funcMaster {
     public swapper(String selection, ArrayList<Integer> nums) {
