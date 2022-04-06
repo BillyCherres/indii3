@@ -1,6 +1,6 @@
-{% includes nav.html %}
+{% include nav.html %}
 
-{% includes snippets.html %}
+{% include snippets.html %}
 
 # Code Snippets
 # Table of Contents

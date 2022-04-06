@@ -1,4 +1,4 @@
-{% includes nav.html %}
+{% include nav.html %}
 
 # indii3
 
