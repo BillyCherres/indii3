@@ -12,6 +12,11 @@ public class W1_C2 extends funcMaster {
     }
 
     @Override
+    public String getSelection() {
+        return this.selection;
+    }
+
+    @Override
     public void run() {
         //queue list numbers
         List<Integer> q1_list = Arrays.asList(1, 4, 5, 8);
@@ -66,11 +71,5 @@ public class W1_C2 extends funcMaster {
 
         System.out.println("Output: " + output.display());
 
-    }
-
-    @Override
-    public String getSelection() {
-        // TODO Auto-generated method stub
-        return null;
     }
 }

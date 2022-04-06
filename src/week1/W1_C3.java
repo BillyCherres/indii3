@@ -13,6 +13,11 @@ public class W1_C3 extends funcMaster {
     }
 
     @Override
+    public String getSelection() {
+        return this.selection;
+    }
+
+    @Override
     public void run() {
         //initialize queues
         List<Integer> list = Arrays.asList(1, 2, 3, 4);
@@ -58,12 +63,6 @@ public class W1_C3 extends funcMaster {
                 .replaceAll("\\[|\\]", "")
                 .replaceAll(" "," ")
                 .replaceAll(",", " "));
-    }
-
-    @Override
-    public String getSelection() {
-        // TODO Auto-generated method stub
-        return null;
     }
 }
 

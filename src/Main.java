@@ -35,7 +35,7 @@ public class Main {
                 myMenu.print();
 
                 //Read user input
-                System.out.println("Input: ");
+                System.out.println("Enter a number: ");
                 int choice = input.nextInt();
 
                 //Try choice

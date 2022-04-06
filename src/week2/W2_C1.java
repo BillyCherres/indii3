@@ -13,6 +13,11 @@ public class W2_C1 extends funcMaster {
     }
 
     @Override
+    public String getSelection() {
+        return this.selection;
+    }
+
+    @Override
     public void run() {
         System.out.println("Input: ");
         String expression = input.nextLine();
@@ -27,12 +32,4 @@ public class W2_C1 extends funcMaster {
         Double result = myCalculator.calculate(rpn);
         System.out.println("Result: " + result);
     }
-
-    @Override
-    public String getSelection() {
-        // TODO Auto-generated method stub
-        return null;
-    }
-
-
 }

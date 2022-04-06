@@ -12,7 +12,7 @@ public class W1_C1 extends funcMaster {
 
     @Override
     public String getSelection() {
-        return selection;
+        return this.selection;
     }
 
     @Override
