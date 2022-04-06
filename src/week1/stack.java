@@ -2,7 +2,6 @@ package week1;
 
 //imports
 import java.util.ArrayList;
-import java.util.EmptyStackException;
 
 public class stack<T> {
     private ArrayList<T> list = new ArrayList<T>();

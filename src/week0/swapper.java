@@ -17,33 +17,33 @@ public class swapper extends funcMaster {
 
     @Override
     public void run() {
-        Scanner input = new Scanner(System.in);
+        try (Scanner input = new Scanner(System.in)) {
+            ArrayList<Integer> nums = new ArrayList<Integer>();
 
-        ArrayList<Integer> nums = new ArrayList<Integer>();
+            //First user number
+            System.out.print("Number 1: ");
+            int num1 = input.nextInt();
 
-        //First user number
-        System.out.print("Number 1: ");
-        int num1 = input.nextInt();
+            //Second user number
+            System.out.print("Number 2: ");
+            int num2 = input.nextInt();
 
-        //Second user number
-        System.out.print("Number 2: ");
-        int num2 = input.nextInt();
+            nums.add(num1);
+            nums.add(num2);
 
-        nums.add(num1);
-        nums.add(num2);
+            //Before statement
+            System.out.println("Before: " + nums.get(0) + " " + nums.get(1));
 
-        //Before statement
-        System.out.println("Before: " + nums.get(0) + " " + nums.get(1));
+            //Switcher
+            if(nums.get(0) > nums.get(1)) {
+                Integer temp = nums.get(1);
+                nums.set(1, nums.get(0));
+                nums.set(0, temp);
+            }
 
-        //Switcher
-        if(nums.get(0) > nums.get(1)) {
-            Integer temp = nums.get(1);
-            nums.set(1, nums.get(0));
-            nums.set(0, temp);
+            //After statement
+            System.out.println("After: " + nums.get(0) + " " + nums.get(1));
         }
-
-        //After statement
-        System.out.println("After: " + nums.get(0) + " " + nums.get(1));
 
     }
 }
