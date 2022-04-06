@@ -1,3 +1,7 @@
+{% includes nav.html %}
+
+{% includes snippets.html %}
+
 # Code Snippets
 # Table of Contents
 - [Menu Code](https://github.com/BillyCherres/squirty_grinnellians/blob/gh-pages/Challenge_Code.md#menu-code)
@@ -5,9 +9,7 @@
 - [Matrix Code](https://github.com/BillyCherres/squirty_grinnellians/blob/gh-pages/Challenge_Code.md#matrix)
 
 # Linked list and Java Generic T
-- [replit](https://billycherres.github.io/indii3/replit.html)
-
-```
+```java
 public static void main(String[] args) {
 
     //linked list creation for challenge sentence
@@ -15,7 +17,7 @@ public static void main(String[] args) {
 
 ```
 
-```
+```java
 //generic T allows any data type to be used when class is called
 public class queue<T> {
 
@@ -29,8 +31,7 @@ public class queue<T> {
 ```
 
 # Queue Add and Delete
-- [replit](https://billycherres.github.io/indii3/replit.html)
-```
+```java
 //add data to queue
     public void push(T data){
         list.add(data);
@@ -52,9 +53,7 @@ public class queue<T> {
 ```
 
 # Merge 2 Queues 
-- [replit](https://billycherres.github.io/indii3/replit.html)
-
-```
+```java
 while((q1.display() != null) || (q2.display() != null)) {
             try {
                 //checks whether q1's output or q2's output is smaller
@@ -85,9 +84,7 @@ while((q1.display() != null) || (q2.display() != null)) {
 ```
 
 # Build Stack and reverse Queue Order
-- [replit](https://billycherres.github.io/indii3/replit.html)
-
-```
+```java
         //move queue elements into stack
         int j = start.length();
         for(int i = 0; i < j; i++) {
@@ -104,7 +101,7 @@ while((q1.display() != null) || (q2.display() != null)) {
 
 # Menu Code
 
-```
+```java
 import java.util.Dictionary;
 import java.util.Scanner;
 
@@ -136,7 +133,7 @@ public class menu {
 
 # Swapper Code
 
-```
+```java
 public class swapper extends funcMaster {
     public swapper(String selection, ArrayList<Integer> nums) {
         super.selection = selection;
@@ -182,7 +179,7 @@ public class swapper extends funcMaster {
 ```
 
 # Matrix
-```
+```java
 public class matrix extends funcMaster{
     public matrix(String selection) {
         super.selection = selection;

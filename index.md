@@ -1,8 +1,6 @@
-# indii3
+{% includes nav.html %}
 
-# Menu
-- [CodeSnippets](CodeSnippets.md)
-- [Replit Code](replit.html)
+# indii3
 
 
 <details>
@@ -11,6 +9,14 @@
 <img width="1020" alt="Screen Shot 2022-03-07 at 8 48 44 AM" src="https://user-images.githubusercontent.com/72890070/157079407-b998a98e-3dca-4973-828b-4a5dda12914d.png">
 </details>
 
+
+## Week 3 [Notes/Challenges](https://github.com/nighthawkcoders/nighthawk_csa/wiki/Tri-3:-Tech-Talk-3:-Sorts)
+
+
+## Week 2 [Notes/Challenges](https://github.com/nighthawkcoders/nighthawk_csa/wiki/Tri-3:-Tech-Talk-2:-Calculator)
+
+
+## Week 1 [Notes/Challenges](https://github.com/nighthawkcoders/nighthawk_csa/wiki/Tri-3:-Tech-Talk-1:-Linked-Lists-Part-2)
 
 ## Week 0 [Notes/Challenges](https://github.com/nighthawkcoders/nighthawk_csa/wiki/Tri-3:-Tech-Talk-0---Data-Structures)
 1. [Create Hashmap menu with try and catch function](https://github.com/BillyCherres/indii3/blob/main/menu.java)
