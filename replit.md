@@ -1,3 +1,4 @@
+{% include nav.html %}
 <style>
         body { background-color: lightslategray ;
 
