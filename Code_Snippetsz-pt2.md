@@ -1,4 +1,4 @@
-# Code Snippets
+# Code Snippets pt 2
 # Table of Contents
 - [Menu Code](https://github.com/BillyCherres/squirty_grinnellians/blob/gh-pages/Challenge_Code.md#menu-code)
 - [Swapper Code](https://github.com/BillyCherres/squirty_grinnellians/blob/gh-pages/Challenge_Code.md#swapper-code)
