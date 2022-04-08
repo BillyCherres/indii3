@@ -6,6 +6,8 @@ import week1.W1_C1;
 import week1.W1_C2;
 import week1.W1_C3;
 import week2.W2_C1;
+import week3.W3_C1;
+
 
 import java.util.*;
 
@@ -23,6 +25,10 @@ public class Main {
                 myElements.put(5, new W1_C2("Week 1 Challenge 2"));
                 myElements.put(6, new W1_C3("Week 1 Challenge 3"));
                 myElements.put(7, new W2_C1("Week 2 Challenge 1"));
+                // myElements.put(8, new W3_C1("Week 3 Challenge 1"));
+                // myElements.put(10, new W3_C2("Week 3 Challenge 2"));
+                // myElements.put(11, new W3_C3("Week 3 Challenge 3"));
+                // myElements.put(12, new W3_C4("Week 3 Challenge 4"));
             }
             
             //Create menu class object

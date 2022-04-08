@@ -1,0 +1,46 @@
+package week3;
+
+import java.util.ArrayList;
+import java.util.Scanner;
+
+import abstract_class.funcMaster;
+
+public class W3_C4 extends funcMaster {
+    public W3_C4(String selection) {
+        super.selection = selection;
+    }
+
+    @Override
+    public String getSelection() {
+        return this.selection;
+    }
+
+    @Override
+    public void run() {
+        System.out.println("Selection Sort");
+
+        int smallInt = 0;
+        int j=0;
+        int smallIntIndex = 0;
+
+        for(int i=1;i<inputArray.size();i++){
+
+            smallInt = inputArray.get(i-1);
+            smallIntIndex = i-1;
+
+            for(j=i;j<inputArray.size();j++){
+                if(inputArray.get(j)<smallInt){
+                    smallInt = inputArray.get(j);
+                    smallIntIndex = j;
+                }
+            }
+
+            //Swap the smallest element with the first element of unsorted subarray
+            sel1(i-1, smallIntIndex);
+        }
+
+        int temp = inputArray.get(destIndex);
+        inputArray.set(destIndex, inputArray.get(sourceIndex));
+        inputArray.set(sourceIndex, temp);
+    }
+}

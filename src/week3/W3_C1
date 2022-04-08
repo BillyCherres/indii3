@@ -1,0 +1,47 @@
+package week3;
+
+import java.time.Duration;
+import java.time.Instant;
+import java.util.ArrayList;
+import java.util.Comparator;
+import java.util.ArrayList;
+import java.util.Scanner;
+
+import abstract_class.funcMaster;
+
+public class W3_C1 extends funcMaster {
+    public W3_C1(String selection) {
+        super.selection = selection;
+    }
+
+    @Override
+    public String getSelection() {
+        return this.selection;
+    }
+
+    @Override
+    public void run() {
+        // this printing out the name bubble sort
+        System.out.println("Bubble Sort");
+
+        // check if the number of orders is larger than 1
+        int temp;
+        if (inputArray.size()>1) 
+        {
+            // bubble sort outer loop
+            for (int x=0; x<inputArray.size(); x++) 
+            {
+                // for loop that iterates over the array
+                for (int i=0; i < inputArray.size()-i; i++) {
+                    // if statement
+                    if (inputArray.get(i).compareTo(inputArray.get(i+1)) > 0)
+                    {
+                        temp = inputArray.get(i);
+                        inputArray.set(i,inputArray.get(i+1) );
+                        inputArray.set(i+1, temp);
+                    }
+                }
+            }
+        }
+    }
+}
